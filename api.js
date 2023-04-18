@@ -31,14 +31,14 @@ function render() {
 
         let li2 = document.createElement("li");
         li2.textContent = `price: ${element.price}`;
-        // let li3= document.createElement("li");
-        // li3.textContent=`description: ${element.description}`;
-
+        let li3= document.createElement("button");
+        li3.textContent="add item"   ;
+        // let input=document.createElement("button")
 
         divContainer.appendChild(image);
         ul.appendChild(li1);
         ul.appendChild(li2);
-        // ul.appendChild(li3);
+        ul.appendChild(li3);
 
 
         divContainer.appendChild(ul);
