@@ -10,14 +10,15 @@ class Product {
 
 }
 
+        let sdcard = document.getElementById("dom");
+        
 
 function render() {
 
     arrData.map(element => {
 
-        let sdcard = document.getElementById("student_card");
 
-        let divContainer = document.createElement('div');
+        let divContainer = document.createElement('div'); 
 
         let image = document.createElement("img");
         image.src = `${element.image}`
