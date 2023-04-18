@@ -1,0 +1,123 @@
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     text-transform: capitalize;
+ }
+
+ #nav {
+     opacity: 0.7;
+     border-radius: 20px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 40px;
+ }
+
+ .img {
+     height: 4rem;
+     width: 4rem;
+     margin-left: 20px;
+     ;
+ }
+
+ .items {
+     margin-left: 40px;
+
+ }
+
+ .ul {
+
+     display: flex;
+     margin-top: 10px;
+     margin-right: 40px;
+     list-style: none;
+
+ }
+
+ .li {
+     margin-left: 50px;
+     margin-top: 10px;
+ }
+
+ .a {
+     text-decoration: none;
+     color: brown;
+     color: sandybrown;
+     font-size: x-large;
+     font-style: italic;
+     font-weight: 500;
+ }
+
+ .a:hover {
+     color: aliceblue;
+     transition: 1s;
+     background-color: sandybrown;
+     border-radius: 10px;
+     padding: 3px;
+ }
+
+
+ /* home */
+ #home {
+     background-image: url(img/top-view-tasty-coffee-with-coffee-beans_1220-388.webp);
+     height: 120vh;
+     width: 100%;
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .cafe1 {
+     color: sandybrown;
+ }
+
+ .cafe {
+     text-align: center;
+     font-style: italic;
+     color: sandybrown;
+ }
+
+ .bye {
+     height: 70px;
+     width: 140px;
+     margin-top: 30px;
+     font-size: larger;
+     padding: 5px;
+     border-radius: 15px;
+     color: rgb(110, 23, 23);
+     background-color: sandybrown
+ }
+
+ .bye:hover {
+     transition: 2s;
+     background-color: rgb(110, 23, 23);
+     color: sandybrown
+ }
+
+ #dom {
+     margin-top: 20px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+ ul {
+     list-style: none;
+     text-align: center;
+ }
+
+
+
+
+
+ /* home */
+
+
+ #footer {
+     background-color: rgb(110, 23, 23);
+ }
