@@ -39,7 +39,7 @@
  }
 
  .li {
-     margin-left: 50px;
+     margin-left: 2rem;
      margin-top: 10px;
  }
 
@@ -81,7 +81,7 @@
  .cafe {
      text-align: center;
      font-style: italic;
-     color: sandybrown;
+     color: rgb(235, 172, 56);
  }
 
  .bye {
